@@ -1,0 +1,116 @@
+
+  /* global */
+   html{font-family: 'Oswald', sans-serif;}
+
+  html {line-height: 1.5;}
+  .b-nr {background-repeat: no-repeat;}
+
+  .b-s-l {border: solid 10%;}
+  .b-s-m {border: solid 4%;}
+  .b-s-s {border: solid 1%;}
+  .b-n {border: none;}
+
+  .c-0 { color: rgb(230,219,  0) }	/* Main Primary color */
+  .c-1 { color: rgb(252, 248, 173) }
+  .c-2 { color: rgb(255,242,  0) }
+  .c-3 { color: rgb(235, 211, 0) }
+  .c-4 { color: rgb( 26, 25,  0) }
+
+  /* As RGBa codes */
+
+  .bgc-0 { background-color: rgb(230,219,  0,1) }	/* Main Primary background-color */
+  .bgc-1 { background-color: rgb(252, 248, 173) }
+  .bgc-2 { background-color: rgb(255,242,  0,1) }
+  .bgc-3 { background-color: rgb(235, 211, 0) }
+  .bgc-4 { background-color: rgb( 26, 25,  0,1) }
+
+
+  .fz-jjj {font-size: 500%;}  
+  .fz-jj {font-size: 300%;}  
+  .fz-j {font-size: 200%;}
+  .fz-l {font-size: 100%;}
+  .fz-m {font-size: 70%;}
+  .fz-s {font-size: 50%;}
+
+  .g-fw {
+    background: linear-gradient(
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.7) 200%
+    );
+}
+
+  .g-wdb {background: linear-gradient(rgb(255, 255, 255), rgb(0, 92, 92) 100%);}
+  .g-wlb {background: linear-gradient(rgb(255, 255, 255), rgb(197, 255, 255) 100%);}
+
+  .o-h {opacity: 0.75;}
+  .o-m {opacity: 0.5;}
+  .o-l {opacity: 0.25;}
+
+  /* shadow */
+  .s {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .td-n {text-decoration: none;}
+  .ts-i {font-style: italic;}
+  .ts- {font-style: bold;}
+
+
+
+  /* ------------------ON FOCUS ------------------ */
+  .bg-c-b-fc:focus {background-color: rgb(0, 143, 143);}
+  .bg-c-db-fc:focus {background-color: rgb(0, 92, 92);}
+  .bg-c-w-fc:focus {background-color: rgb(255, 255, 255);}
+
+  .c-b-fc:focus {color: rgb(0, 143, 143);}
+  .c-db-fc:focus {color: rgb(0, 92, 92)}
+  .c-w-fc:focus {color: rgb(255, 255, 255);}
+
+  /* grow, shrink */
+  .t-g-fc:focus {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+  }
+  .t-s-fc:focus {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+  }
+
+  /* add shadow */
+  .s-fc:focus {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  /* ------------------ ON HOVER ------------------ */
+  .bg-c-b-hv:hover {background-color: rgb(0, 143, 143);}
+  .bg-c-db-hv:hover {background-color: rgb(0, 92, 92);}
+  .bg-c-lb-hv:hover {background-color: rgb(197, 255, 255);}
+  .bg-c-w-hv:hover {background-color: rgb(255, 255, 255);}
+
+  .c-b-hv:hover {color: rgb(0, 143, 143);}
+  .c-db-hv:hover {color: rgb(0, 92, 92);}
+  .c-w-hv:hover {color: rgb(255, 255, 255);}
+
+  .t-g-hv:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+  }
+  .t-s-hv:hover {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+  }
+
+  /* add shadow */
+  .s-hv:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  } 
